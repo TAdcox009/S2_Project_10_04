@@ -14,3 +14,20 @@
 */
 
 /* Audio Styles */
+
+/*  
+For the audio element it is going to display them as block, theres a dark gray box shadow with a horizontal and vertical offset of 8 pixels and a blur of 15 pixels, the top/bottom margin is set to 20 pixels and the left/right margin is set to auto, and the width of the element is 80%.
+*/
+audio {
+   display: block;
+   box-shadow: 8px 8px 15px;
+   margin: 20px auto 20px auto;
+   width: 80%;
+}
+
+/* The audio element with the psuedo class of -webkit-media-controls-panel, it is being set to a medium blue color */
+audio::-webkit-media-controls-panel {
+   background-color: rgb(128, 128, 255);
+}
+
+
